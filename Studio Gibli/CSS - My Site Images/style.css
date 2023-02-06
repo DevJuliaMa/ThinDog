@@ -1,0 +1,164 @@
+body{
+    color:#40514E ;
+    font-size: 1rem;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+
+
+h1{
+    /* fonte Dinamica, dividi o tanto de pixel por 16*/
+    /* em = 16px //  16px = 100% */
+    /* rem = 16px indicado para uso */
+    color: #66BFBF;
+    font-size: 5.6525rem;
+    line-height: 2rem;
+    margin-top: 50px auto 0 auto;
+    font-family: 'Sacramento';
+}
+
+h2{
+    color: #66BFBF;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* container */
+
+.top-container{
+    background-color:  #E0EBE8;
+    position: relative; 
+    padding-top: 100px;
+
+}
+
+
+
+.nuvem1{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.nuvem2{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+
+  
+}
+
+
+
+.conteudo img{
+    width: 400px;
+    padding-bottom: 70px;
+}
+
+p{
+    line-height: 2;
+}
+
+.montanha{
+    position: relative;
+}
+
+.footer-link{
+    color: #11999E;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    
+}
+
+
+.foto{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.pimenta{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.descricao{
+    color: #40514E;
+}
+
+.conteudo{
+    margin-top: 60px;
+}
+
+.botao-carrosel{
+    background-color:  #11999E;
+}
+
+hr{
+    border-color:  #EAF6F6;
+    border-width: 5px;
+    width: 5%;
+   border-style: none;
+   border-top-style: dotted;
+}
+
+.bottom-container {
+    padding: 50px 0 20px;
+    background-color: #66BFBF;
+
+  }
+
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+ 
+
+a:hover{
+    color: #EAF6F6;
+}
+
+.copy{
+    color:#EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0px;
+}
+
+.middle-container{
+    margin: 100px 0;
+}
+ 
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+.contact-me{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+
+span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    display: block;
+}
