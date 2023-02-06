@@ -1,0 +1,224 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+
+/* navegação  */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+
+/* Containers */
+.container-fluid{
+    padding: 7% 15%; 
+}
+
+/* Section */
+
+.colorida{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.branca{
+    background-color: #fff;
+
+}
+
+.grande-titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    margin: 0;
+    color:#fff
+}
+
+.sessao-preco{
+    font: 3rem;
+    line-height: 1.5;
+}
+
+/* titulo */
+h1,h2,h3,h4,h5,h6{
+    font-family:"Montserrat", sans-serif; 
+   
+}
+
+
+
+
+/* Title Section */
+
+#title{
+    text-align: left;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* botão */
+.bataobaixar{
+    margin: 5% 3% 5% 0;
+}
+
+/* imagem titulo */
+
+.imagem-titulo{
+    /* width: 60%; */
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+/* segundo container */
+
+#features{
+    
+    position: relative;
+}
+
+.feature-titulo{
+    font-size: 1.5rem;
+}
+
+/* icones*/
+.icone{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+/* titulo icones */
+
+#features h3{
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* paragrafos */
+#features p{
+    color: #8f8f8f;
+}
+
+
+.icone:hover{
+    color: #ff4c68;
+}
+
+/* Depoimentos */
+
+#depoimento{
+    background-color:#ef8172;
+}
+
+.testemunho-texto{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.depoimento-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+
+/* preço */
+
+#preco{
+    padding: 100px;
+}
+
+.preco-coluna{
+    padding: 3% 2%;
+}
+
+.preco-texto{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* CTA */
+#cta{
+    padding: 7% 15%;
+}
+
+.cta-titulo{
+    font-family: 'Montserrat';
+    font-weight:900;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: #fff;
+    padding-bottom: 2rem;
+}
+
+.cta-botao{
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    margin-right: 2rem;
+    margin-top: 2.5rem;
+    
+}
+
+.icone-botao{
+    padding-right: 7px;
+}
+
+
+
+#footer i {
+    padding-right: 20px;
+}
+
+.copy{
+    margin-top: 30px;
+    color: #8f8f8f;
+    
+}
+
+/* responsivo */
+@media (max-width:1028px){
+    .imagem-titulo{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        margin-bottom: 190px;
+        text-align: center;
+    }
+}
